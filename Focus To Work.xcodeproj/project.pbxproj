@@ -8,24 +8,49 @@
 
 /* Begin PBXBuildFile section */
 		2DCE70F72B83D47B0097A03F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCE70F62B83D47B0097A03F /* AppDelegate.swift */; };
-		2DCE70F92B83D47B0097A03F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCE70F82B83D47B0097A03F /* SceneDelegate.swift */; };
-		2DCE70FB2B83D47B0097A03F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCE70FA2B83D47B0097A03F /* ViewController.swift */; };
-		2DCE70FE2B83D47B0097A03F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DCE70FC2B83D47B0097A03F /* Main.storyboard */; };
 		2DCE71012B83D47B0097A03F /* Focus_To_Work.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2DCE70FF2B83D47B0097A03F /* Focus_To_Work.xcdatamodeld */; };
 		2DCE71032B83D47E0097A03F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DCE71022B83D47E0097A03F /* Assets.xcassets */; };
 		2DCE71062B83D47E0097A03F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DCE71042B83D47E0097A03F /* LaunchScreen.storyboard */; };
+		2DECB96D2B85260F00C99E58 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DECB96C2B85260F00C99E58 /* BaseViewController.swift */; };
+		2DECB96F2B85262D00C99E58 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DECB96E2B85262D00C99E58 /* BaseViewModel.swift */; };
+		2DECB9762B85274000C99E58 /* DismissableRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DECB9752B85274000C99E58 /* DismissableRoute.swift */; };
+		2DECB9782B85275500C99E58 /* ModalTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DECB9772B85275500C99E58 /* ModalTransition.swift */; };
+		2DECB97A2B85276900C99E58 /* PlaceOnWindowTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DECB9792B85276900C99E58 /* PlaceOnWindowTransition.swift */; };
+		2DECB97C2B85277E00C99E58 /* PushTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DECB97B2B85277E00C99E58 /* PushTransition.swift */; };
+		2DECB97E2B85279300C99E58 /* Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DECB97D2B85279300C99E58 /* Transition.swift */; };
+		2DECB9802B8527B400C99E58 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DECB97F2B8527B400C99E58 /* AppRouter.swift */; };
+		2DECB9822B8527E300C99E58 /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DECB9812B8527E300C99E58 /* Animator.swift */; };
+		2DECB9842B8527F600C99E58 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DECB9832B8527F600C99E58 /* Router.swift */; };
+		2DECB9882B85282B00C99E58 /* SettingsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DECB9852B85282B00C99E58 /* SettingsRouter.swift */; };
+		2DECB9892B85282B00C99E58 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DECB9862B85282B00C99E58 /* SettingsViewController.swift */; };
+		2DECB98A2B85282B00C99E58 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DECB9872B85282B00C99E58 /* SettingsViewModel.swift */; };
+		4B52F9E4AFC03BCA4EA57B60 /* Pods_Focus_To_Work.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CAD92E493D6A4A68F7EF059 /* Pods_Focus_To_Work.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0DDEF96E59A464C0C6C4F104 /* Pods-Focus To Work.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Focus To Work.release.xcconfig"; path = "Target Support Files/Pods-Focus To Work/Pods-Focus To Work.release.xcconfig"; sourceTree = "<group>"; };
+		2D889D2B2B83D76F005676E9 /* FocusToWork-BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FocusToWork-BridgingHeader.h"; sourceTree = "<group>"; };
 		2DCE70F32B83D47B0097A03F /* Focus To Work.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Focus To Work.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DCE70F62B83D47B0097A03F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2DCE70F82B83D47B0097A03F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2DCE70FA2B83D47B0097A03F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2DCE70FD2B83D47B0097A03F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2DCE71002B83D47B0097A03F /* Focus_To_Work.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Focus_To_Work.xcdatamodel; sourceTree = "<group>"; };
 		2DCE71022B83D47E0097A03F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DCE71052B83D47E0097A03F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2DCE71072B83D47E0097A03F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DECB96C2B85260F00C99E58 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		2DECB96E2B85262D00C99E58 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		2DECB9752B85274000C99E58 /* DismissableRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissableRoute.swift; sourceTree = "<group>"; };
+		2DECB9772B85275500C99E58 /* ModalTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalTransition.swift; sourceTree = "<group>"; };
+		2DECB9792B85276900C99E58 /* PlaceOnWindowTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceOnWindowTransition.swift; sourceTree = "<group>"; };
+		2DECB97B2B85277E00C99E58 /* PushTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushTransition.swift; sourceTree = "<group>"; };
+		2DECB97D2B85279300C99E58 /* Transition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transition.swift; sourceTree = "<group>"; };
+		2DECB97F2B8527B400C99E58 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		2DECB9812B8527E300C99E58 /* Animator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animator.swift; sourceTree = "<group>"; };
+		2DECB9832B8527F600C99E58 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		2DECB9852B85282B00C99E58 /* SettingsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRouter.swift; sourceTree = "<group>"; };
+		2DECB9862B85282B00C99E58 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		2DECB9872B85282B00C99E58 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		3913D9B2CD7DE9692A474432 /* Pods-Focus To Work.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Focus To Work.debug.xcconfig"; path = "Target Support Files/Pods-Focus To Work/Pods-Focus To Work.debug.xcconfig"; sourceTree = "<group>"; };
+		3CAD92E493D6A4A68F7EF059 /* Pods_Focus_To_Work.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Focus_To_Work.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +58,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B52F9E4AFC03BCA4EA57B60 /* Pods_Focus_To_Work.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D889D2C2B83D7BF005676E9 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				2D889D2B2B83D76F005676E9 /* FocusToWork-BridgingHeader.h */,
+				2DCE70F62B83D47B0097A03F /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		2D889D2D2B83D92B005676E9 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				2DECB96B2B8525E900C99E58 /* Base */,
+				2D889D2E2B83DDC0005676E9 /* Settings */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		2D889D2E2B83DDC0005676E9 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				2DECB9862B85282B00C99E58 /* SettingsViewController.swift */,
+				2DECB9872B85282B00C99E58 /* SettingsViewModel.swift */,
+				2DECB9852B85282B00C99E58 /* SettingsRouter.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
 		2DCE70EA2B83D47B0097A03F = {
 			isa = PBXGroup;
 			children = (
 				2DCE70F52B83D47B0097A03F /* Focus To Work */,
 				2DCE70F42B83D47B0097A03F /* Products */,
+				48A6674ACCF5467B6480EED4 /* Pods */,
+				E9F774A267D504FAA2395769 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +114,88 @@
 		2DCE70F52B83D47B0097A03F /* Focus To Work */ = {
 			isa = PBXGroup;
 			children = (
-				2DCE70F62B83D47B0097A03F /* AppDelegate.swift */,
-				2DCE70F82B83D47B0097A03F /* SceneDelegate.swift */,
-				2DCE70FA2B83D47B0097A03F /* ViewController.swift */,
-				2DCE70FC2B83D47B0097A03F /* Main.storyboard */,
+				2DECB9702B85270500C99E58 /* Routing */,
+				2D889D2D2B83D92B005676E9 /* Scenes */,
+				2D889D2C2B83D7BF005676E9 /* AppDelegate */,
 				2DCE71022B83D47E0097A03F /* Assets.xcassets */,
 				2DCE71042B83D47E0097A03F /* LaunchScreen.storyboard */,
 				2DCE71072B83D47E0097A03F /* Info.plist */,
 				2DCE70FF2B83D47B0097A03F /* Focus_To_Work.xcdatamodeld */,
 			);
 			path = "Focus To Work";
+			sourceTree = "<group>";
+		};
+		2DECB96B2B8525E900C99E58 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2DECB96C2B85260F00C99E58 /* BaseViewController.swift */,
+				2DECB96E2B85262D00C99E58 /* BaseViewModel.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		2DECB9702B85270500C99E58 /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+				2DECB9742B85272C00C99E58 /* Core */,
+				2DECB9732B85272500C99E58 /* Routers */,
+				2DECB9722B85271700C99E58 /* Transitions */,
+				2DECB9712B85270C00C99E58 /* Route */,
+			);
+			path = Routing;
+			sourceTree = "<group>";
+		};
+		2DECB9712B85270C00C99E58 /* Route */ = {
+			isa = PBXGroup;
+			children = (
+				2DECB9752B85274000C99E58 /* DismissableRoute.swift */,
+			);
+			path = Route;
+			sourceTree = "<group>";
+		};
+		2DECB9722B85271700C99E58 /* Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				2DECB9772B85275500C99E58 /* ModalTransition.swift */,
+				2DECB97B2B85277E00C99E58 /* PushTransition.swift */,
+				2DECB97D2B85279300C99E58 /* Transition.swift */,
+				2DECB9792B85276900C99E58 /* PlaceOnWindowTransition.swift */,
+			);
+			path = Transitions;
+			sourceTree = "<group>";
+		};
+		2DECB9732B85272500C99E58 /* Routers */ = {
+			isa = PBXGroup;
+			children = (
+				2DECB97F2B8527B400C99E58 /* AppRouter.swift */,
+			);
+			path = Routers;
+			sourceTree = "<group>";
+		};
+		2DECB9742B85272C00C99E58 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				2DECB9812B8527E300C99E58 /* Animator.swift */,
+				2DECB9832B8527F600C99E58 /* Router.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		48A6674ACCF5467B6480EED4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3913D9B2CD7DE9692A474432 /* Pods-Focus To Work.debug.xcconfig */,
+				0DDEF96E59A464C0C6C4F104 /* Pods-Focus To Work.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E9F774A267D504FAA2395769 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CAD92E493D6A4A68F7EF059 /* Pods_Focus_To_Work.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +205,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2DCE710A2B83D47E0097A03F /* Build configuration list for PBXNativeTarget "Focus To Work" */;
 			buildPhases = (
+				7A7E05C744F62C2E489CFA7E /* [CP] Check Pods Manifest.lock */,
 				2DCE70EF2B83D47B0097A03F /* Sources */,
 				2DCE70F02B83D47B0097A03F /* Frameworks */,
 				2DCE70F12B83D47B0097A03F /* Resources */,
+				62E3133EB64D43BE0104E5E6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,35 +260,79 @@
 			files = (
 				2DCE71062B83D47E0097A03F /* LaunchScreen.storyboard in Resources */,
 				2DCE71032B83D47E0097A03F /* Assets.xcassets in Resources */,
-				2DCE70FE2B83D47B0097A03F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		62E3133EB64D43BE0104E5E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Focus To Work/Pods-Focus To Work-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Focus To Work/Pods-Focus To Work-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Focus To Work/Pods-Focus To Work-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A7E05C744F62C2E489CFA7E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Focus To Work-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2DCE70EF2B83D47B0097A03F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCE70FB2B83D47B0097A03F /* ViewController.swift in Sources */,
+				2DECB9822B8527E300C99E58 /* Animator.swift in Sources */,
+				2DECB97E2B85279300C99E58 /* Transition.swift in Sources */,
+				2DECB96F2B85262D00C99E58 /* BaseViewModel.swift in Sources */,
+				2DECB9762B85274000C99E58 /* DismissableRoute.swift in Sources */,
+				2DECB96D2B85260F00C99E58 /* BaseViewController.swift in Sources */,
+				2DECB98A2B85282B00C99E58 /* SettingsViewModel.swift in Sources */,
 				2DCE70F72B83D47B0097A03F /* AppDelegate.swift in Sources */,
+				2DECB97A2B85276900C99E58 /* PlaceOnWindowTransition.swift in Sources */,
+				2DECB9802B8527B400C99E58 /* AppRouter.swift in Sources */,
+				2DECB9782B85275500C99E58 /* ModalTransition.swift in Sources */,
+				2DECB9892B85282B00C99E58 /* SettingsViewController.swift in Sources */,
+				2DECB97C2B85277E00C99E58 /* PushTransition.swift in Sources */,
+				2DECB9882B85282B00C99E58 /* SettingsRouter.swift in Sources */,
 				2DCE71012B83D47B0097A03F /* Focus_To_Work.xcdatamodeld in Sources */,
-				2DCE70F92B83D47B0097A03F /* SceneDelegate.swift in Sources */,
+				2DECB9842B8527F600C99E58 /* Router.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2DCE70FC2B83D47B0097A03F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2DCE70FD2B83D47B0097A03F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2DCE71042B83D47E0097A03F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -286,6 +460,7 @@
 		};
 		2DCE710B2B83D47E0097A03F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3913D9B2CD7DE9692A474432 /* Pods-Focus To Work.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -296,7 +471,6 @@
 				INFOPLIST_FILE = "Focus To Work/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -314,6 +488,7 @@
 		};
 		2DCE710C2B83D47E0097A03F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DDEF96E59A464C0C6C4F104 /* Pods-Focus To Work.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -324,7 +499,6 @@
 				INFOPLIST_FILE = "Focus To Work/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
