@@ -1,0 +1,28 @@
+PODS:
+  - BetterSegmentedControl (2.0.1)
+  - MobilliumBuilders (1.6.1)
+  - Segmentio (4.1)
+  - TinyConstraints (4.0.2)
+
+DEPENDENCIES:
+  - BetterSegmentedControl (~> 2.0)
+  - MobilliumBuilders (~> 1.4)
+  - Segmentio (~> 4.1)
+  - TinyConstraints (~> 4.0)
+
+SPEC REPOS:
+  trunk:
+    - BetterSegmentedControl
+    - MobilliumBuilders
+    - Segmentio
+    - TinyConstraints
+
+SPEC CHECKSUMS:
+  BetterSegmentedControl: 09607b27861d49cbce48b7673b74f9150a3d371a
+  MobilliumBuilders: fe858e0098491eb989539ebe8ddf4d5f7db6809e
+  Segmentio: ab29def64e1bff6e6e9b97671788a99bed3f1d9f
+  TinyConstraints: 7b7ccc0c485bb3bb47082138ff28bc33cd49897f
+
+PODFILE CHECKSUM: 6416f073937d6f724c9197040a9556f5284cb209
+
+COCOAPODS: 1.12.1
